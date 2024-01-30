@@ -9,13 +9,17 @@ import {HttpClientModule} from "@angular/common/http";
 import { PostCategoryComponent } from './components/post-category/post-category.component';
 import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
+import { PostProductComponent } from './components/post-product/post-product.component';
+import {MatIconModule} from "@angular/material/icon";
+import {MatSelectModule} from "@angular/material/select";
 
 
 @NgModule({
   declarations: [
     AdminComponent,
     DashboardComponent,
-    PostCategoryComponent
+    PostCategoryComponent,
+    PostProductComponent
   ],
   imports: [
     CommonModule,
@@ -24,7 +28,9 @@ import {MatButtonModule} from "@angular/material/button";
     ReactiveFormsModule,
     HttpClientModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule,
+    MatSelectModule
   ]
 })
 export class AdminModule { }
