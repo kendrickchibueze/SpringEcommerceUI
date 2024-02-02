@@ -12,6 +12,8 @@ import {MatButtonModule} from "@angular/material/button";
 import { PostProductComponent } from './components/post-product/post-product.component';
 import {MatIconModule} from "@angular/material/icon";
 import {MatSelectModule} from "@angular/material/select";
+import {MatCardModule} from "@angular/material/card";
+import {MatListModule} from "@angular/material/list";
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import {MatSelectModule} from "@angular/material/select";
     MatInputModule,
     MatButtonModule,
     MatIconModule,
-    MatSelectModule
+    MatSelectModule,
+    MatCardModule,
+    MatListModule
   ]
 })
 export class AdminModule { }
