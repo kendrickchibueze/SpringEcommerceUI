@@ -15,6 +15,8 @@ import {MatIconModule} from "@angular/material/icon";
 import {HttpClientModule} from "@angular/common/http";
 import {MatSnackBarModule} from "@angular/material/snack-bar";
 import { MatDialogModule } from '@angular/material/dialog';
+import {MatDatepickerModule} from "@angular/material/datepicker";
+import {MatNativeDateModule} from "@angular/material/core";
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { MatDialogModule } from '@angular/material/dialog';
     ReactiveFormsModule,
     MatIconModule,
     HttpClientModule,
-    MatDialogModule
+    MatDialogModule,
+    MatDatepickerModule,
+    MatNativeDateModule
   ],
   providers: [],
   bootstrap: [AppComponent]

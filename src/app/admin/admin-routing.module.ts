@@ -4,12 +4,16 @@ import { AdminComponent } from './admin.component';
 import {DashboardComponent} from "./components/dashboard/dashboard.component";
 import {PostCategoryComponent} from "./components/post-category/post-category.component";
 import {PostProductComponent} from "./components/post-product/post-product.component";
+import {PostcouponComponent} from "./components/postcoupon/postcoupon.component";
+import {CouponsComponent} from "./components/coupons/coupons.component";
 
 const routes: Routes = [
   { path: '', component: AdminComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'category', component: PostCategoryComponent},
-  { path: 'product', component: PostProductComponent }
+  { path: 'product', component: PostProductComponent },
+  { path: 'post-coupon', component: PostcouponComponent },
+  { path: 'coupons', component: CouponsComponent }
 ];
 
 @NgModule({
