@@ -17,6 +17,7 @@ import {MatListModule} from "@angular/material/list";
 import { PostcouponComponent } from './components/postcoupon/postcoupon.component';
 import { CouponsComponent } from './components/coupons/coupons.component';
 import {MatDatepickerModule} from "@angular/material/datepicker";
+import {MatTableModule} from "@angular/material/table";
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import {MatDatepickerModule} from "@angular/material/datepicker";
     MatSelectModule,
     MatCardModule,
     MatListModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatTableModule
   ]
 })
 export class AdminModule { }
